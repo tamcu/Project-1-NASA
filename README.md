@@ -1,11 +1,12 @@
-# Project-1-NASA
+# Project-1-NASA (Team 6)
 
-Discover the definition of “Hazardous”
+This repository contains a dataset compiled by NASA, listing certified asteroids classified as the nearest Earth objects. The dataset offers valuable insights into asteroids that have been identified as in close proximity to our planet. With the increase in space exploration and the inherent risks associated with near-Earth asteroids. While a distance of 70,000 kilometers may seem vast on a human scale, in astronomical terms, it represents a close proximity that could potentially disrupt various natural phenomena. The dataset underscores the significance of identifying and studying these celestial bodies due to their potential to cause harm. 
+This dataset coincides with the historic DARTS (Double Asteroid Redirection Test) mission, the first-ever dedicated mission by NASA aimed at investigating and demonstrating one method of asteroid deflection. DARTS signifies a significant milestone in space exploration and aims to contribute to our understanding of mitigating potential asteroid threats. 
 
-- Relationship between Hazardous and missed distance
-- Relationship between Hazardous and relative velocity
-- Relationship between Hazardous and diameter
-- Relationship between Hazardous and magnitude
-- Relationship between missed distance and the diameter
+We employed this data set to analyze and determine what are the requirements to clasify NEOs as “Hazardous”.To carry out this analysis we proposed the following hypothesis:
+  - Null Hypothesis (H0): There is no correlation between the distance of Near-Earth Objects (NEOs) from Earth and their apparent size. The danger presented by the NEOs, as observed from Earth, is not influenced entirely by their distance or apparent size.
+  - Hypothesis: There is a correlation between the distance of Near-Earth Objects (NEOs) and their size. We expect to find a positive correlation between the distance of NEOs and their apparent size, indicating that NEOs in closer proximity to Earth will appear larger in the sky when observed from our vantage point, and therefore will be a potentially hazardous object.
 
-- BONUS: Scatter plot de los valores repetidos 
+Our analysis consisted in obtaining a statisitical summarry of the Magnitude and Missed Distance of the NEOs, the relationship between Magnitude and Missed Distance, a regression analysis, as well taking a closer look to the Variance and Trends.
+
+We concluded the dataset doesn't support our hypothesis. The data reveals an apparent negative correlation, meaning that as the magnitude (apparent size) of NEOs decreases, their miss distance increases. Therfore the Null Hypothesis is confirmed, meaning the danger presented by the NEOs, as observed from Earth, is not influenced entirely by their distance or apparent size.
